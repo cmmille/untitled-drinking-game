@@ -1,0 +1,117 @@
+/****** Navbar ******/
+.brand{
+    font-size: 2rem;
+    color: khaki;
+    display: inline;
+    margin: auto 10px;
+}
+.brand-text{
+    font-size: 1.5rem;
+    color: white;
+    display: inline;
+    text-decoration: none;
+}
+.brand-text:hover{
+    color: khaki;
+}
+.menu{
+    align-self: flex-end;
+    margin: auto 10px;
+}
+#navbar{
+    background-color: black;
+    justify-content: space-between;
+}
+
+/****** Game ******/
+#game-section{
+    text-align: center;
+    color: white;
+    margin: 5vh;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    color: khaki;
+    border-color: khaki;
+    margin: 10px auto 25px;
+}
+.btn:hover{
+    background-color: khaki;
+    border-color: khaki;
+    color: black;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.game-card{
+    height: 50vh;
+    width: 75vw;
+    background-color: khaki;
+    margin: 25px auto;
+    border-radius: 5%;
+    box-shadow: 5px 8px 6px black;
+    display: flex;
+    justify-content: center;
+}
+.inner-card{
+    height: 47.5vh;
+    width: 72.5vw;
+    background-color: black;
+    margin: auto;
+    border-radius: 5%;
+    position: relative;
+}
+#card-title{
+    font-family: 'Pacifico', cursive;
+    margin: 15px;
+}
+#card-rule{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    font-size: 1.5rem;
+}
+#card-image{
+    margin: auto;
+    font-family: 'Pacifico', cursive;
+    line-height: 0.75;
+}
+.counter-image{
+    height: 32.5vh;
+    width: 32.5vh;
+    font-size: 15rem;
+    border-radius: 50%;
+    line-height: 1;
+    border: 0.5rem solid;
+}
+/*Image colors*/
+.give-image{
+    background-color: green;
+    border-color: darkgreen;
+}
+.take-image{
+    background-color: red;
+    border-color: darkred;
+}
+.rule-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25vh;
+    width: 75%;
+    font-size: 5rem;
+    background-color: gray;
+    color: white;
+    border-radius: 15%;
+    border: 0.5rem solid dimgrey;
+}
+.blue{
+    background-color: deepskyblue;
+    color: darkblue;
+    border-color: royalblue;
+}
+.pink{
+    background-color: pink;
+    color: deeppink;
+    border-color: darkmagenta;
+}
