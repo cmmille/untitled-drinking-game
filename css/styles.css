@@ -17,8 +17,9 @@
 .menu{
     align-self: flex-end;
     margin: auto 10px;
+    text-align: right;
 }
-#navbar{
+#menu-bar{
     background-color: black;
     justify-content: space-between;
 }
